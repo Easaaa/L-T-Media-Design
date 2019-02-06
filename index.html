@@ -12,10 +12,13 @@
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+
 
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
   <title>L!T</title>
 </head>
 <body>
@@ -26,7 +29,7 @@
             <i class="fas fa-ellipsis-v"></i>
         </label>
         <ul class="menu">
-          <a href="#services">Services</a>
+          <a href="#services" class="scrollH">Services</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contacts">Contacts</a>
           <label for="chk" class="hide-menu-btn">
@@ -35,14 +38,14 @@
         </ul>
       </div>
       <header>
-        <div class="left-header">
+        <div class="left-header title-effect-left">
             <h1>Unbeatable Offers</h1>
             <p>We love to create "cool" things </br>on Digital Platform</p>
             <a href="#contacts">
               Contact Us
             </a>
         </div>
-        <div class="right-header">
+        <div class="right-header title-effect-right">
             <img src="img/header-secondary.png" alt="">
         </div>
 
@@ -153,11 +156,11 @@
          
       </div>
       <div id="contacts">
-          <div class="title">
+          <div class="title infoL">
               <h3>Contact Us</h3>
               <h2>Interested in working with us?</h2>
           </div>
-          <div class="email">
+          <div class="email infoR">
               <p> Write us an email at <span>lit@media&design.com</span></p>
           </div>
 
@@ -200,5 +203,7 @@
             </div>
           </div>
         </footer>
+        
+        <script src="app.js"></script>
 </body>
 </html>
