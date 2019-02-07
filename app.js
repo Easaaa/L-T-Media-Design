@@ -14,8 +14,8 @@ viewFactor: 0.5
 sr.reveal('.title-effect-right', {
 duration: 1500,
 origin: 'top',
-distance: '300px',
-viewFactor: 0.5
+distance: '900px',
+viewFactor: 2
 });
 
 window.sr = ScrollReveal();
