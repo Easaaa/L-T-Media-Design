@@ -23,7 +23,8 @@ body {
 .nav-bar img{
   float: left;
   width: 230px;
-  position: absolute
+  position: absolute;
+  margin-top: -50px;
 }
 
 .menu {
@@ -45,6 +46,7 @@ body {
   font-size: 30px;
   cursor: pointer;
   display: none;
+  padding: 20px;
 } 
 
 .show-menu-btn {
@@ -61,7 +63,6 @@ body {
   color: white;
   background: #fd5c63;
   padding: 10px;
-  /* border-bottom: 4px solid #fd5c63; */
   transition: 0.5s ease;
 }
 
@@ -377,6 +378,10 @@ header img {
 #contacts h3 {
   color: #fd5c63;
   font-size: 0.8rem;
+}
+
+#contacts .title img {
+  width: 150px;
 }
 
 .email {
