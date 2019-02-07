@@ -11,9 +11,6 @@ body {
   height: 100%;
  }
  
- h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
- }
 
 /*  NAVBAR  */
 
@@ -221,14 +218,14 @@ header img {
 
 #services h2 {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 #services h3 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 @media screen and (max-width: 976px) {
@@ -258,13 +255,13 @@ header img {
 
 #portfolio h2 {
   color: #fd5c63;
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
 #portfolio h3{
   color: #fd5c63;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 #ptf-element {
@@ -367,14 +364,14 @@ header img {
 
 #contacts h2 {
   color: #fd5c63;
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: uppercase;
   padding: 15px;
 }
 
 #contacts h3 {
   color: #fd5c63;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .email {
@@ -388,7 +385,7 @@ header img {
 }
 
 .email p span {
-  font-size: 3.3rem;
+  font-size: 2.5rem;
   color: #fd5c63;
 }
 
