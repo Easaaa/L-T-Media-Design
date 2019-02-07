@@ -58,8 +58,10 @@ body {
 .menu a:hover, 
 .show-menu-btn:hover, 
 .hide-menu-btn:hover {
-  color: #fd5c63;
-  border-bottom: 4px solid #fd5c63;
+  color: white;
+  background: #fd5c63;
+  padding: 10px;
+  /* border-bottom: 4px solid #fd5c63; */
   transition: 0.5s ease;
 }
 
@@ -104,6 +106,8 @@ body {
   .hide-menu-btn:hover {
     border-bottom: none;
     color: #fd5c63;
+    padding: 20px;
+    background: transparent;
   }
 }
 
@@ -402,8 +406,14 @@ footer {
   background: #fd5c63;
   padding: 50px; 
   color: white;
+  text-align: center;
 }
 
 .central-footer {
   text-transform: uppercase;
 }
+
+
+
+
+
