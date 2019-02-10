@@ -361,6 +361,29 @@ header img {
   color: white;
 }
 
+/* MORE BTN */
+
+.more-btn {
+  background: white;
+  padding: 20px;
+}
+
+.more-btn a h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  color: #A239CA;
+}
+
+.more-btn a h2:hover {
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.more-btn a {
+  cursor: pointer;
+  text-decoration: none;
+}
 
 
 /* --- CONTACTS --- */
