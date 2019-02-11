@@ -353,8 +353,32 @@ header img {
 
 #ptf-all p {
   letter-spacing: 1.5px;
+  margin-bottom: 20px;
 }
 
+#ptf-all a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 630px) {
+  #ptf-all {
+    padding: 80px 70px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #ptf-all {
+    padding: 140px 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #ptf-all {
+    padding: 140px 450px;
+  }
+}
 
 /* --- CONTACTS --- */
 
