@@ -265,13 +265,12 @@ header img {
 
 
 .txt-ptf a i {
-  color: #fd5c63;
+  color: black;
   font-size: 30px;
 } 
 
 .txt-ptf a i:hover {
   color: #fd5c63;
-  font-size: 35px;
   transition: 0.5s ease-in-out;
 } 
 
