@@ -282,49 +282,32 @@ header img {
   position: relative;
 }
 
+.container-ptf img {
+  background-color: rgb(231, 229, 229); 
+}
+
 .image-ptf {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay-ptf {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: whitesmoke;
+.txt-ptf {
+  padding: 30px;
+  background: white;
+  text-align: center;
 }
 
-.container-ptf:hover .overlay-ptf {
-  opacity: 0.8;
-}
 
-/* .container-ptf:hover {
-  -webkit-box-shadow: 0px 0px 16px 1px rgba(253,92,99,0.83);
-  -moz-box-shadow: 0px 0px 16px 1px rgba(253,92,99,0.83);
-  box-shadow: 0px 0px 16px 1px rgba(253,92,99,0.83);
-} */
+.txt-ptf a i {
+  color: #fd5c63;
+  font-size: 30px;
+} 
 
-.text-img-ptf {
-  color: #000000;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.text-img-ptf a i {
-  color: #000000;
-  font-size: 40px;
-  margin-top: 10px;
+.txt-ptf a i:hover {
+  color: #fd5c63;
+  font-size: 35px;
+  transition: 0.5s ease-in-out;
 } 
 
 @media screen and (min-width: 800px) {
@@ -342,37 +325,22 @@ header img {
   }
 }
 
-.more-project {
-  background: #fd5c63;
-  width: 100%;
-  padding: 40px 0 40px 0;
-  text-align: center;
-}
-
-.more-project a {
-  text-decoration: none;
-  font-size: 2rem;
-  color: white;
-}
-
-.more-project a:hover {
-  font-size: 2.5rem;
-  transition: all 0.5s ease-in-out;
-  color: white;
-}
-
 /* MORE BTN */
 
 .more-btn {
-  background: white;
-  padding: 20px;
+  background: #fd5c63;
+  padding: 40px;
 }
 
 .more-btn a h2 {
-  text-transform: uppercase;
   font-weight: 300;
   text-align: center;
-  color: #A239CA;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.more-btn a h2 i {
+  font-size: 1.3rem;
 }
 
 .more-btn a h2:hover {
