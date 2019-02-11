@@ -41,22 +41,6 @@ body {
   transition: 0.4s;
 }
 
-.show-menu-btn, .hide-menu-btn {
-  transition: 0.4s;
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-  padding: 20px;
-} 
-
-.show-menu-btn {
-  float: right;
-}
-
-.show-menu-btn i {
-  line-height: 100px;
-}
-
 .menu a:hover, 
 .show-menu-btn:hover, 
 .hide-menu-btn:hover {
@@ -66,57 +50,30 @@ body {
   transition: 0.5s ease;
 }
 
-#chk {
-  position: absolute;
-  visibility: hidden;
-  z-index: -1111;
-}
-
-@media screen and (max-width: 800px) {
-  .show-menu-btn, .hide-menu-btn {
-    display: block;
-  }
+@media screen and (max-width: 900px) {
   .menu {
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background: #000000;
-    color: white;
-    right: -100%;
-    top: 0;
-    text-align: center;
-    padding: 80px 0;
-    line-height: normal;
-    transition: 0.7s ease;
+    text-align: end;
   }
-  .menu a {
-    display: block;
-    padding: 20px;
-    color: white;
-  }
-  .hide-menu-btn {
+  .menu a:nth-child(1) {
+    display: none;
     position: absolute;
-    top: 40px;
-    right: 40px;
   }
-  #chk:checked ~ .menu {
-    right: 0;
+  .menu a:nth-child(2) {
+    display: none;
+    position: absolute;
   }
-  .menu a:hover, 
-  .show-menu-btn:hover, 
-  .hide-menu-btn:hover {
-    border-bottom: none;
-    color: #fd5c63;
-    padding: 20px;
-    background: transparent;
+  .menu a:nth-child(3) {
+    display: none;
+    position: absolute;
   }
+  
 }
 
 
 /* --- HEADER --- */
 
 header {
-  margin-top: 150px;
+  margin-top: 90px;
   padding: 8px;
 }
 
@@ -169,6 +126,7 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+    margin-top: 130px;
   }
   header h1 {
     font-size: 2.5rem;
@@ -185,6 +143,9 @@ header img {
 @media screen and (min-width: 1200px) {
   header h1 {
     font-size: 3.5rem;
+  }
+  header {
+    margin-top: 150px;
   }
 }
 
