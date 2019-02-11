@@ -41,9 +41,7 @@ body {
   transition: 0.4s;
 }
 
-.menu a:hover, 
-.show-menu-btn:hover, 
-.hide-menu-btn:hover {
+.menu a:hover {
   color: white;
   background: #fd5c63;
   padding: 10px;
@@ -174,9 +172,15 @@ header img {
   padding-top: 20px;
 }
 
-.service:hover {
-  background: #fd979c;
-  transition: 0.7s;
+.service img {
+  max-width: 60px;
+  border-radius: 50%;
+}
+
+.service:hover img {
+  background: white;
+  border-radius: 20%;
+  transition: 0.7s ease-in-out;
 }
 
 .title {
@@ -312,6 +316,44 @@ header img {
 .more-btn a {
   cursor: pointer;
   text-decoration: none;
+}
+
+/* --- PORTFOLIO PAGE --- */
+
+.menu-secondary {
+  text-align: end;
+  padding: 20px;
+}
+
+.menu-secondary a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu-secondary a:hover {
+  color: #fd5c63;
+  transition: 0.5s ease;
+}
+
+.menu-secondary a ion-icon {
+  font-size: 40px;
+}
+
+#ptf-all {
+  padding: 80px 20px;;
+}
+
+#ptf-all h1 {
+  font-size: 4rem;
+}
+
+#ptf-all h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+#ptf-all p {
+  letter-spacing: 1.5px;
 }
 
 
