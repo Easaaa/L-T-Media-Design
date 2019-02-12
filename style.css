@@ -423,20 +423,96 @@ header img {
   }
 }
 
+/* --- PRIVACY POLICY --- */
+
+.nav-privacy {
+  height: 150px;
+  padding: 0 20px;
+  background: whitesmoke;
+}
+
+.nav-privacy img{
+  float: left;
+  width: 230px;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.menu-privacy {
+  text-align: end;
+  padding: 20px;
+}
+
+.menu-privacy a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu-privacy a:hover {
+  color: #fd5c63;
+  transition: 0.5s ease;
+}
+
+.menu-privacy a ion-icon {
+  font-size: 40px;
+}
+
+.txt-privacy {
+  padding: 20px;
+}
+
+.txt-privacy h1 {
+  font-size: 2rem;
+  color: #fd5c63;
+  text-transform: uppercase;
+}
+
+.txt-privacy p {
+  padding: 20px 0 20px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .txt-privacy {
+    padding: 100px;
+  }
+}
+
+
 /* --- FOOTER --- */
 
 footer {
   background: #fd5c63;
-  padding: 50px; 
+  padding: 10px; 
   color: white;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.left-footer img {
+  max-width: 200px;
+}
+
+.right-footer a {
+  color: white;
 }
 
 .central-footer {
   text-transform: uppercase;
 }
 
-
-
+@media screen and (min-width: 1000px) {
+  footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .left-footer {
+    padding-right: 140px;
+  }
+  .right-footer {
+    padding-left: 140px;
+  }
+}
 
 
