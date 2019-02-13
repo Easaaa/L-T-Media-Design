@@ -498,6 +498,10 @@ footer {
   color: white;
 }
 
+.right-footer {
+  padding: 15px;
+}
+
 .central-footer {
   text-transform: uppercase;
 }
@@ -512,6 +516,7 @@ footer {
   }
   .right-footer {
     padding-left: 140px;
+    text-align: end;
   }
 }
 
