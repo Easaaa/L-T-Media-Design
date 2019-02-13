@@ -319,6 +319,19 @@ header img {
 
 /* --- PORTFOLIO PAGE --- */
 
+.nav-ptf {
+  height: 150px;
+  padding: 0 20px;
+  background: whitesmoke;
+}
+
+.nav-ptf img{
+  float: left;
+  width: 230px;
+  position: absolute;
+  margin-top: -50px;
+}
+
 .menu-secondary {
   text-align: end;
   padding: 20px;
@@ -338,45 +351,67 @@ header img {
   font-size: 40px;
 }
 
-#ptf-all {
-  padding: 80px 20px;;
+.border {
+  border: 3px solid #fd5c63;
+  margin: 0 30px 0 0;
 }
 
-#ptf-all h1 {
-  font-size: 4rem;
+.project-desc {
+  padding: 80px 20px 40px 20px;;
 }
 
-#ptf-all h2 {
+.project-desc h2 {
   font-size: 2rem;
   padding-bottom: 20px;
 }
 
-#ptf-all p {
+.project-desc p {
   letter-spacing: 1.5px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#ptf-all a {
+.project-desc a {
   text-decoration: none;
   color: black;
   font-weight: 500;
 }
 
+.project-desc ion-icon {
+  color: #fd5c63;
+  font-size: 1.5rem;
+}
+
+.img-project {
+  text-align: center;
+}
+
+.img-project img{
+  max-width: 400px;
+  padding-bottom: 20px;
+}
+
 @media screen and (min-width: 630px) {
-  #ptf-all {
+  .project-desc {
     padding: 80px 70px;
+  }
+  .img-project img{
+    max-width: 750px;
+  }
+  .border {
+    margin: 0 100px 0 0;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  #ptf-all {
-    padding: 140px 200px;
+  .project-desc {
+    padding: 140px 200px 70px 200px;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  #ptf-all {
-    padding: 140px 450px;
+  .project-desc {
+    padding: 140px 450px 70px 450px;
   }
 }
 
@@ -480,6 +515,10 @@ header img {
 
 /* --- FOOTER --- */
 
+.space-footer {
+  padding: 40px;
+}
+
 footer {
   background: #fd5c63;
   padding: 10px; 
@@ -500,6 +539,10 @@ footer {
 
 .right-footer {
   padding: 15px;
+}
+
+.right-footer h3 {
+  text-transform: uppercase;
 }
 
 .central-footer {
