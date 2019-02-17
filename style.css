@@ -248,7 +248,8 @@ header img {
 }
 
 .container-ptf img {
-  background-color: rgb(231, 229, 229); 
+  /* background-color: rgb(231, 229, 229);  */
+  background-color: white; 
 }
 
 .image-ptf {
