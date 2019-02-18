@@ -222,7 +222,7 @@ header img {
 
 #portfolio {
   background: white;
-  padding: 40px 0 0 0;
+  padding-top: 40px;
 }
 
 #portfolio h2 {
@@ -239,30 +239,51 @@ header img {
 #ptf-element {
   display: grid;
   place-items: center;
-  grid-gap: 40px;
-  margin-top: 30px;
+} 
+
+.ptf-header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 40px;
+  /* color: #fd5c63; */
+}
+
+.ptf-header p {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .container-ptf {
-  position: relative;
+  -webkit-box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
+  box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
 }
 
 .image-ptf {
-  display: block;
   width: 100%;
-  height: auto;
+  text-align: center;
 }
 
 .txt-ptf {
   padding: 30px;
-  background: white;
+  background: whitesmoke;
   text-align: center;
 }
 
+.txt-ptf h4 {
+  color: #fd5c63;
+  font-size: 1.2rem;
+}
+
+.txt-ptf p {
+  padding: 5px;
+}
 
 .txt-ptf a i {
   color: black;
   font-size: 30px;
+  margin-top: 15px;
 } 
 
 .txt-ptf a i:hover {
@@ -270,15 +291,11 @@ header img {
   transition: 0.5s ease-in-out;
 } 
 
-@media screen and (min-width: 800px) {
-  #ptf-element {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    grid-gap: 40px;
+@media screen and (min-width: 900px) {
+  .container-ptf {
+    margin: 100px;
   }
-}
-
+} 
 
 /* MORE BTN */
 
@@ -311,9 +328,9 @@ header img {
 /* --- PORTFOLIO PAGE --- */
 
 .red-row {
-  padding: 30px;
+  padding: 5px;
+  margin-top: 15px;
   background: #fd5c63;
-  
 }
 
 .nav-ptf {
