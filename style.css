@@ -221,7 +221,7 @@ header img {
 /* --- PORTFOLIO --- */
 
 #portfolio {
-  background: whitesmoke;
+  background: white;
   padding: 40px 0 0 0;
 }
 
@@ -245,11 +245,6 @@ header img {
 
 .container-ptf {
   position: relative;
-}
-
-.container-ptf img {
-  /* background-color: rgb(231, 229, 229);  */
-  background-color: white; 
 }
 
 .image-ptf {
@@ -284,11 +279,6 @@ header img {
   }
 }
 
-@media screen and (min-width: 1100px) {
-  #ptf-element {
-    padding-bottom: 70px;
-  }
-}
 
 /* MORE BTN */
 
@@ -320,10 +310,16 @@ header img {
 
 /* --- PORTFOLIO PAGE --- */
 
+.red-row {
+  padding: 30px;
+  background: #fd5c63;
+  
+}
+
 .nav-ptf {
   height: 150px;
   padding: 0 20px;
-  background: whitesmoke;
+  border-bottom: 5px solid #fd5c63;
 }
 
 .nav-ptf img{
@@ -389,6 +385,7 @@ header img {
 
 .img-project img{
   max-width: 400px;
+  max-height: 559px;
   padding-bottom: 20px;
 }
 

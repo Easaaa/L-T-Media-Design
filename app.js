@@ -32,6 +32,13 @@ distance: '300px',
 viewFactor: 0.2
 });
 
+sr.reveal('.btm-effect', {
+duration: 1000,
+origin: 'bottom',
+distance: '300px',
+viewFactor: 0.2
+});
+
 sr.reveal('#portfolio', {
   duration: 1000,
   origin: 'bottom',
