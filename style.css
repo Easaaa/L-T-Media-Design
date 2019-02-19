@@ -347,10 +347,10 @@ header img {
 }
 
 .ptf-header {
-  text-align: center;
   background: #fd5c63;
   color: white;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 50px 0;
+  text-align: center;
 }
 
 .ptf-header ion-icon {
@@ -359,8 +359,8 @@ header img {
 }
 
 .ptf-header h1 {
-  font-size: 3rem;
-  padding: 40px 40px 0 40px;
+  font-size: 2.5rem;
+  padding: 40px 5px 40px 5px;
 }
 
 .ptf-header p {
@@ -392,6 +392,7 @@ header img {
 .project-desc ion-icon {
   color: #fd5c63;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .img-project {
