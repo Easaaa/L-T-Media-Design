@@ -247,7 +247,6 @@ header img {
 
 .txt-ptf {
   padding: 30px;
-  background: whitesmoke;
   text-align: center;
 }
 
@@ -271,7 +270,10 @@ header img {
   transition: 0.5s ease-in-out;
 } 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
+  #ptf-element {
+    grid-template-columns: 1fr 1fr;
+  }
   .container-ptf {
     margin: 100px;
   }
@@ -343,7 +345,6 @@ header img {
   border: 3px solid #fd5c63;
   margin: 0 30px 0 0;
 }
-
 
 .ptf-header {
   text-align: center;
