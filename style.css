@@ -95,13 +95,6 @@ header a {
   border-radius: 15px;
 }
 
-header a:hover {
-  transition: 0.6s;
-  -webkit-box-shadow: 0px 0px 16px 1px rgba(253,92,99,0.83);
-  -moz-box-shadow: 0px 0px 16px 1px rgba(253,92,99,0.83);
-  box-shadow: 0px 0px 16px 1px rgba(253,92,99,0.83);
-}
-
 header img {
   width: 100%;
   margin-top: 50px;
@@ -301,11 +294,6 @@ header img {
 .more-btn a h2 i {
   font-size: 1.3rem;
 }
-/* 
-.more-btn a h2:hover {
-  font-size: 40px;
-  transition: 0.5s;
-} */
 
 .more-btn a {
   cursor: pointer;
@@ -323,7 +311,6 @@ header img {
 .nav-ptf {
   height: 150px;
   padding: 0 20px;
-  border-bottom: 5px solid #fd5c63;
 }
 
 .nav-ptf img{
@@ -360,28 +347,24 @@ header img {
 
 .ptf-header {
   text-align: center;
+  background: #fd5c63;
+  color: white;
+  padding: 20px 0 20px 0;
 }
 
 .ptf-header ion-icon {
   font-size: 2rem;
-  color: #fd5c63;
+  color: white;
 }
 
 .ptf-header h1 {
-  /* font-family: 'Pacifico', cursive; */
   font-size: 3rem;
   padding: 40px 40px 0 40px;
-  /* color: #fd5c63; */
 }
 
 .ptf-header p {
   font-size: 1.2rem;
   padding: 0 5px 0 5px;
-}
-
-.ptf-header:hover ion-icon{
-  font-size: 3rem;
-  transition: 0.7s ease-in-out;
 }
 
 .project-desc {
