@@ -10,7 +10,6 @@ body {
   font-weight: 300;
   height: 100%;
  }
- 
 
 /*  NAVBAR  */
 
@@ -73,6 +72,7 @@ body {
 header {
   margin-top: 90px;
   padding: 8px;
+  padding-bottom: 50px;
 }
 
 header h1 {
@@ -144,8 +144,9 @@ header img {
 /* --- SERVICES --- */
 
 #services {
-  padding: 40px 20px 40px 20px;
-  background: #fd5c63;
+  padding: 80px 20px 80px 20px;
+  border-top: 2px solid rgba(253, 92, 99, 0.5);
+  border-bottom: 2px solid rgba(253, 92, 99, 0.5);
 }
 
 .services {
@@ -158,7 +159,6 @@ header img {
 
 .services p {
   margin: 15px;
-  color: rgba(255, 255, 255, 0.7);
 }
 
 .service {
@@ -168,10 +168,12 @@ header img {
 .service img {
   max-width: 60px;
   border-radius: 50%;
+  padding: 1px;
+  background: #fd5c63;
 }
 
 .service:hover img {
-  background: white;
+  background: #fd5c63;
   border-radius: 20%;
   transition: 0.7s ease-in-out;
 }
@@ -182,14 +184,14 @@ header img {
 }
 
 #services h2 {
-  color: white;
+  color: #fd5c63;
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 #services h3 {
-  color: white;
+  color: #fd5c63;
   font-size: 0.8rem;
 }
 
@@ -208,6 +210,12 @@ header img {
        "box"
        "box" 
        "box";
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #services {
+    margin: 0 180px 0 180px;
   }
 }
 
@@ -441,6 +449,12 @@ header img {
   font-size: 0.8rem;
 }
 
+#contacts ion-icon {
+  color: #fd5c63;
+  font-size: 2.5rem;
+  margin-top: 15px;
+}
+
 #contacts .title img {
   width: 150px;
 }
@@ -451,18 +465,19 @@ header img {
 }
 
 .email p {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #646464;
 }
 
-.email p span {
-  font-size: 2.5rem;
+.email p a{
+  font-size: 2rem;
   color: #fd5c63;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 525px) {
-  .email p span {
-    font-size: 1.5rem;
+  .email p a {
+    font-size: 1.3rem;
   }
 }
 
@@ -528,7 +543,7 @@ header img {
 }
 
 footer {
-  background: #fd5c63;
+  background: rgba(0,0,0,0.3);
   padding: 10px; 
   color: white;
   text-align: center;
