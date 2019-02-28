@@ -94,11 +94,14 @@ header p {
 header a {
   text-decoration: none;
   padding: 12px;
-  border: #000000;
   color: white;
-  background: #fd5c63;
+  background: #000;
   border-radius: 15px;
 }
+   header a:hover {
+     background: #fd5c63;
+     transition: 0.2s ease-in;
+   }
 
 header img {
   width: 100%;
@@ -159,8 +162,8 @@ header img {
 
 #services {
   padding: 80px 20px 80px 20px;
-  border-top: 2px solid rgba(253, 92, 99, 0.5);
-  border-bottom: 2px solid rgba(253, 92, 99, 0.5);
+  border-top: 2px solid rgba(44, 44, 44, 0.5);
+  border-bottom: 2px solid rgba(44, 44, 44, 0.5); 
 }
 
 .services {
@@ -185,12 +188,11 @@ header img {
   padding: 1px;
   background: #fd5c63;
 }
-
-.service:hover img {
-  background: #fd5c63;
-  border-radius: 20%;
-  transition: 0.7s ease-in-out;
-}
+    .service:hover img {
+      background: #fd5c63;
+      border-radius: 20%;
+      transition: 0.7s ease-in-out;
+    }
 
 .title {
   text-align: center;
@@ -198,14 +200,14 @@ header img {
 }
 
 #services h2 {
-  color: #fd5c63;
+  /* color: #fd5c63; */
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 #services h3 {
-  color: #fd5c63;
+  /* color: #fd5c63; */
   font-size: 0.8rem;
 }
 
@@ -241,13 +243,13 @@ header img {
 }
 
 #portfolio h2 {
-  color: #fd5c63;
+  /* color: #fd5c63; */
   font-size: 2rem;
   text-transform: uppercase;
 }
 
 #portfolio h3{
-  color: #fd5c63;
+   /* color: #fd5c63;  */
   font-size: 0.8rem;
 }
 
@@ -273,7 +275,7 @@ header img {
 }
 
 .txt-ptf h4 {
-  color: #fd5c63;
+  /* color: #fd5c63; */
   font-size: 1.2rem;
 }
 
@@ -304,7 +306,7 @@ header img {
 /* MORE BTN */
 
 .more-btn {
-  background: #fd5c63;
+  background: #000;
   padding: 40px;
 }
 
@@ -363,7 +365,8 @@ header img {
 }
 
 .ptf-header {
-  background: #fd5c63;
+  /* background: #fd5c63; */
+  background: #000;
   color: white;
   padding: 20px 0 50px 0;
   text-align: center;
@@ -371,7 +374,7 @@ header img {
 
 .ptf-header ion-icon {
   font-size: 2rem;
-  color: white;
+  color: #fd5c63;
 }
 
 .ptf-header h1 {
@@ -452,19 +455,19 @@ header img {
 }
 
 #contacts h2 {
-  color: #fd5c63;
+  /* color: #fd5c63; */
   font-size: 2rem;
   text-transform: uppercase;
   padding: 15px;
 }
 
 #contacts h3 {
-  color: #fd5c63;
+  /* color: #fd5c63; */
   font-size: 0.8rem;
 }
 
 #contacts ion-icon {
-  color: #fd5c63;
+  /* color: #fd5c63; */
   font-size: 2.5rem;
   margin-top: 15px;
 }
@@ -485,8 +488,9 @@ header img {
 
 .email p a{
   font-size: 2rem;
-  color: #fd5c63;
+  /* color: #fd5c63; */
   text-decoration: none;
+  color: #000;
 }
 
 @media screen and (max-width: 525px) {
@@ -557,7 +561,7 @@ header img {
 }
 
 footer {
-  background: rgba(0,0,0,0.3);
+  background: #000;
   padding: 10px; 
   color: white;
   text-align: center;
