@@ -21,10 +21,16 @@ body {
 
 .nav-bar img{
   float: left;
+  width: 450px;
+  position: absolute;
+  top: 35px;
+  left: -110px;
+}
+
+/* float: left;
   width: 230px;
   position: absolute;
-  margin-top: -50px;
-}
+  margin-top: -50px; */
 
 .menu {
   text-align: center;
@@ -335,9 +341,10 @@ header img {
 
 .nav-ptf img{
   float: left;
-  width: 230px;
+  width: 350px;
   position: absolute;
-  margin-top: -50px;
+  top: 8px;
+  left: -110px;
 }
 
 .menu-secondary {
@@ -509,9 +516,10 @@ header img {
 
 .nav-privacy img{
   float: left;
-  width: 230px;
+  width: 350px;
   position: absolute;
-  margin-top: -50px;
+  top: 8px;
+  left: -110px;
 }
 
 .menu-privacy {
@@ -571,7 +579,7 @@ footer {
 }
 
 .left-footer img {
-  max-width: 200px;
+  max-width: 300px;
 }
 
 .right-footer a {
