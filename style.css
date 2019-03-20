@@ -69,7 +69,10 @@ body {
     display: none;
     position: absolute;
   }
-  
+  .nav-bar img {
+    top: 8px;
+    left: -140px;
+  }
 }
 
 
