@@ -163,8 +163,8 @@ header img {
 
 #services {
   padding: 40px 20px 80px 20px;
-  border-top: 2px solid rgba(44, 44, 44, 0.5);
-  border-bottom: 2px solid rgba(44, 44, 44, 0.5); 
+  /* border-top: 2px solid rgba(44, 44, 44, 0.5);
+  border-bottom: 2px solid rgba(44, 44, 44, 0.5);  */
 }
 
 .services {
@@ -230,11 +230,6 @@ header img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  #services {
-    margin: 0 180px 0 180px;
-  }
-}
 
 /* --- PORTFOLIO --- */
 
@@ -307,7 +302,7 @@ header img {
 /* MORE BTN */
 
 .more-btn {
-  background: #000;
+  background: #fd5c63;
   padding: 40px;
 }
 
@@ -574,7 +569,7 @@ footer {
 }
 
 .left-footer img {
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .right-footer a {
