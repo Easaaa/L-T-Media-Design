@@ -21,10 +21,14 @@ body {
 
 .nav-bar img{
   float: left;
+  width: 300px;
+  position: absolute;
+  margin-top: -50px;
+  /* float: left;
   width: 450px;
   position: absolute;
   top: 35px;
-  left: -110px;
+  left: -110px; */
 }
 
 /* float: left;
@@ -53,7 +57,7 @@ body {
   transition: 0.5s ease;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
   .menu {
     text-align: end;
   }
@@ -70,8 +74,8 @@ body {
     position: absolute;
   }
   .nav-bar img {
-    top: 8px;
-    left: -140px;
+    /* top: 8px;
+    left: -140px; */
   }
 }
 
@@ -519,10 +523,9 @@ header img {
 
 .nav-privacy img{
   float: left;
-  width: 350px;
+  width: 300px;
   position: absolute;
-  top: 8px;
-  left: -110px;
+  margin-top: -50px;
 }
 
 .menu-privacy {
@@ -582,7 +585,7 @@ footer {
 }
 
 .left-footer img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .right-footer a {
