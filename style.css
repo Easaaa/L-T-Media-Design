@@ -348,10 +348,9 @@ header img {
 
 .nav-ptf img{
   float: left;
-  width: 350px;
+  width: 300px;
   position: absolute;
-  top: 8px;
-  left: -110px;
+  margin-top: -50px;
 }
 
 .menu-secondary {
