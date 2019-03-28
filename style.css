@@ -23,18 +23,10 @@ body {
   float: left;
   width: 300px;
   position: absolute;
+  left: -30px;
+  top: -15px;
   margin-top: -50px;
-  /* float: left;
-  width: 450px;
-  position: absolute;
-  top: 35px;
-  left: -110px; */
 }
-
-/* float: left;
-  width: 230px;
-  position: absolute;
-  margin-top: -50px; */
 
 .menu {
   text-align: center;
@@ -72,10 +64,6 @@ body {
   .menu a:nth-child(3) {
     display: none;
     position: absolute;
-  }
-  .nav-bar img {
-    /* top: 8px;
-    left: -140px; */
   }
 }
 
@@ -174,7 +162,7 @@ header img {
 /* --- SERVICES --- */
 
 #services {
-  padding: 80px 20px 80px 20px;
+  padding: 40px 20px 80px 20px;
   border-top: 2px solid rgba(44, 44, 44, 0.5);
   border-bottom: 2px solid rgba(44, 44, 44, 0.5); 
 }
@@ -350,6 +338,8 @@ header img {
   float: left;
   width: 300px;
   position: absolute;
+  left: -30px;
+  top: -15px;
   margin-top: -50px;
 }
 
