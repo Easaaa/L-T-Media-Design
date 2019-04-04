@@ -11,12 +11,45 @@ body {
   height: 100%;
  }
 
+ a {
+   color: #000000;
+ }
+
+/* ------- LANGUAGES ------- */
+
+.languages {
+  text-align: end;
+  color: #000000;
+  padding: 5px;
+}
+
+.languages a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  transition: 0.4s;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+  .languages a:hover {
+    cursor: pointer;
+  }
+
+.lang-active {
+  color: white;
+  background: #fd5c63;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
 /*  NAVBAR  */
 
 .nav-bar {
   height: 100px;
   padding: 0 20px;
   background: transparent;
+  text-align: center;
 }
 
 .nav-bar img{
@@ -24,13 +57,12 @@ body {
   width: 300px;
   position: absolute;
   left: -30px;
-  top: -15px;
   margin-top: -50px;
 }
 
 .menu {
   text-align: center;
-  line-height: 100px;
+  line-height: 50px;
 }
 
 .menu a {
@@ -39,17 +71,16 @@ body {
   text-decoration: none;
   padding: 0 10px;
   letter-spacing: 1.5px;
-  transition: 0.4s;
+  transition: 0.5s ease;
 }
 
 .menu a:hover {
   color: white;
   background: #fd5c63;
   padding: 10px;
-  transition: 0.5s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 700px) {
   .menu {
     text-align: end;
   }
@@ -72,8 +103,7 @@ body {
 
 header {
   margin-top: 90px;
-  padding: 8px;
-  padding-bottom: 50px;
+  padding: 8px 8px 50px 8px;
 }
 
 header h1 {
@@ -88,8 +118,7 @@ header h1 span {
 
 header p {
   letter-spacing: 1px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin: 10px 0 30px 0;
 }
 
 header a {
@@ -105,14 +134,18 @@ header a {
    }
 
 header img {
-  width: 100%;
+  width: 300px;
   margin-top: 50px;
 }
 
 .left-header {
-  padding-bottom: 40px;
-  padding: 12px;
+  padding: 20px;
   text-align: center;
+}
+
+.right-header {
+  display: none;
+  position: absolute;
 }
 
 @media screen and (min-width: 400px){
@@ -136,6 +169,12 @@ header img {
   }
   .right-header {
     padding-bottom: 40px;
+    display: block;
+    position: relative;
+  }
+  .nav-bar img{
+    display: none;
+    position: absolute;
   }
   .left-header {
     text-align: start;
@@ -488,7 +527,7 @@ header img {
 }
 
 #contacts ion-icon {
-  /* color: #fd5c63; */
+  color: #fd5c63;
   font-size: 2.5rem;
   margin-top: 15px;
 }
