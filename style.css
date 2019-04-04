@@ -163,6 +163,7 @@ header img {
 
 #services {
   padding: 40px 20px 80px 20px;
+  background: whitesmoke;
   /* border-top: 2px solid rgba(44, 44, 44, 0.5);
   border-bottom: 2px solid rgba(44, 44, 44, 0.5);  */
 }
@@ -280,14 +281,9 @@ header img {
 }
 
 .txt-ptf a i {
-  color: black;
+  color: #fd5c63;
   font-size: 30px;
   margin-top: 15px;
-} 
-
-.txt-ptf a i:hover {
-  color: #fd5c63;
-  transition: 0.5s ease-in-out;
 } 
 
 @media screen and (min-width: 1200px) {
@@ -302,8 +298,10 @@ header img {
 /* MORE BTN */
 
 .more-btn {
-  background: #fd5c63;
-  padding: 40px;
+  background: black;
+  padding: 20px;
+  margin: 0 40px 20px 40px;
+  border-radius: 10px;
 }
 
 .more-btn a h2 {
@@ -320,6 +318,30 @@ header img {
 .more-btn a {
   cursor: pointer;
   text-decoration: none;
+}
+
+@media screen and (min-width: 400px){
+  .more-btn {
+    margin: 0 80px 20px 80px;
+  };
+}
+
+@media screen and (min-width: 700px){
+  .more-btn {
+    margin: 0 200px 20px 200px;
+  };
+}
+
+@media screen and (min-width: 1000px){
+  .more-btn {
+    margin: 0 350px 50px 350px;
+  };
+}
+
+@media screen and (min-width: 1500px){
+  .more-btn {
+    margin: 0 650px 50px 650px;
+  };
 }
 
 /* --- PORTFOLIO PAGE --- */
@@ -449,7 +471,8 @@ header img {
 /* --- CONTACTS --- */
 
 #contacts {
-  padding: 40px 0 0 0 ;
+  padding: 40px 0;
+  background: whitesmoke;
 }
 
 #contacts h2 {
