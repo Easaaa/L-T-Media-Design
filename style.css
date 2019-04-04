@@ -20,7 +20,6 @@ body {
 .languages {
   text-align: end;
   color: #000000;
-  padding: 5px;
 }
 
 .languages a {
@@ -28,7 +27,7 @@ body {
   text-decoration: none;
   letter-spacing: 1.5px;
   transition: 0.4s;
-  padding: 10px;
+  padding: 0 10px;
   transition: 0.5s ease;
 }
 
@@ -167,6 +166,9 @@ header a {
     font-size: 2.5rem;
   }
   header img {
+    width: 300px;
+  }
+  .img-header {
     display: none;
     position: absolute;
   }
@@ -298,9 +300,9 @@ header a {
 } 
 
 .container-ptf {
-  -webkit-box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
+ /*  -webkit-box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
-  box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
+  box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75); */
 }
 
 .image-ptf {
@@ -311,6 +313,7 @@ header a {
 .txt-ptf {
   padding: 30px;
   text-align: center;
+  background: whitesmoke;
 }
 
 .txt-ptf h4 {
