@@ -103,7 +103,7 @@ body {
 
 header {
   margin-top: 90px;
-  padding: 8px 8px 50px 8px;
+  padding-bottom: 40px;
 }
 
 header h1 {
@@ -121,6 +121,10 @@ header p {
   margin: 10px 0 30px 0;
 }
 
+header img {
+  width: 100%;
+}
+
 header a {
   text-decoration: none;
   padding: 12px;
@@ -132,11 +136,6 @@ header a {
      background: #fd5c63;
      transition: 0.2s ease-in;
    }
-
-header img {
-  width: 300px;
-  margin-top: 50px;
-}
 
 .left-header {
   padding: 20px;
@@ -166,6 +165,10 @@ header img {
   }
   header h1 span {
     font-size: 2.5rem;
+  }
+  header img {
+    display: none;
+    position: absolute;
   }
   .right-header {
     padding-bottom: 40px;
@@ -337,17 +340,17 @@ header img {
 /* MORE BTN */
 
 .more-btn {
-  background: black;
-  padding: 20px;
+  background: #000000;
+  padding: 9px;
   margin: 0 40px 20px 40px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .more-btn a h2 {
   font-weight: 300;
   text-align: center;
-  color: white;
   font-size: 1.5rem;
+  color: white;
 }
 
 .more-btn a h2 i {
