@@ -284,110 +284,55 @@ header a {
 }
 
 #portfolio h2 {
-  /* color: #fd5c63; */
   font-size: 2rem;
   text-transform: uppercase;
 }
 
 #portfolio h3{
-   /* color: #fd5c63;  */
   font-size: 0.8rem;
 }
 
 #ptf-element {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
+  grid-gap: 10px;
 } 
-
-.container-ptf {
- /*  -webkit-box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75);
-  box-shadow: 10px 9px 67px -24px rgba(0,0,0,0.75); */
-}
 
 .image-ptf {
   width: 100%;
   text-align: center;
 }
 
-.txt-ptf {
-  padding: 30px;
-  text-align: center;
-  background: whitesmoke;
-}
-
-.txt-ptf h4 {
-  /* color: #fd5c63; */
-  font-size: 1.2rem;
-}
-
-.txt-ptf p {
-  padding: 5px;
-}
-
-.txt-ptf a i {
-  color: #fd5c63;
-  font-size: 30px;
-  margin-top: 15px;
-} 
-
-@media screen and (min-width: 1200px) {
-  #ptf-element {
-    grid-template-columns: 1fr 1fr;
+@media screen and (min-width: 800px) {
+  #ptf-element{
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   }
-  .container-ptf {
-    margin: 100px;
-  }
-} 
+}
 
 /* MORE BTN */
 
-.more-btn {
-  background: #000000;
-  padding: 9px;
-  margin: 0 40px 20px 40px;
-  border-radius: 8px;
-}
-
-.more-btn a h2 {
-  font-weight: 300;
+.btn-ptf {
   text-align: center;
-  font-size: 1.5rem;
-  color: white;
+  margin: 20px;
+  padding: 30px;
 }
 
-.more-btn a h2 i {
-  font-size: 1.3rem;
-}
-
-.more-btn a {
+.btn-ptf a {
+  border: 1px solid #000000;
+  padding: 8px;
+  border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease-in;
 }
-
-@media screen and (min-width: 400px){
-  .more-btn {
-    margin: 0 80px 20px 80px;
-  };
-}
-
-@media screen and (min-width: 700px){
-  .more-btn {
-    margin: 0 200px 20px 200px;
-  };
-}
-
-@media screen and (min-width: 1000px){
-  .more-btn {
-    margin: 0 350px 50px 350px;
-  };
-}
-
-@media screen and (min-width: 1500px){
-  .more-btn {
-    margin: 0 650px 50px 650px;
-  };
-}
+    .btn-ptf a:hover {
+      background: #fd5c63;
+      color: white;
+      border: none;
+      padding: 14px;
+    }
 
 /* --- PORTFOLIO PAGE --- */
 
